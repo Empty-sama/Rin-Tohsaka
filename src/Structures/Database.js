@@ -107,7 +107,7 @@ module.exports = class Database {
 }
 
 /**
- * @typedef {{jid: string, experience: number, ban: boolean, level: number, tag: string}} user
+ * @typedef {{jid: string, experience: number, ban: boolean, level: number, tag: string, bank: number, wallet: number, lastRob: number, lastDaily: date, lastBegTime: date, lastWork: date, mal_id: number, url: string, name: string, nicknames: [string], about: string, favourites: number}} user
  */
 
 /**
